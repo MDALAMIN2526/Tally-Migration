@@ -9,7 +9,7 @@ This tool helps migration of data from Tally Prime (Masters and transactions) to
 </div>
 
 ## Prerequisite
-* TDL Files https://github.com/laxmantandon/tally_migration_tdl.git
+* TDL Files https://github.com/MDALAMIN2526/Tally-Migration-TDL.git
 * Tally Prime
 * ERPNext Active Site
 * india_compliance app is required https://github.com/resilient-tech/india-compliance
@@ -21,20 +21,20 @@ Once you've [set up a Frappe site](https://frappeframework.com/docs/v14/user/en/
 1. Download the app using the Bench CLI.
 
     ```bash
-    bench get-app --branch [branch name] https://github.com/laxmantandon/express_tally.git
+    bench get-app https://github.com/MDALAMIN2526/Tally-Migration.git
     ```
 
 2. Install the app on your site.
 
     ```bash
-    bench --site [site name] install-app express_tally
+    bench --site cpm.com install-app express_tally
     ```
 
 
 ## Steps to Configure
 * Configure TDL Files in tally
-  - follow instruction on this repo https://github.com/laxmantandon/tally_migration_tdl.git
-
+  - follow instruction on this repo https://github.com/MDALAMIN2526/Tally-Migration-TDL.git
+  
 * Generate Authentication Keys
   Create a user with appropriate permission and generate api key and secret
   ![image](https://github.com/laxmantandon/express_tally/assets/24727535/73558d52-d260-4a38-b0a1-8c2ef307a50b)
