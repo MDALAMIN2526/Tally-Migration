@@ -3,10 +3,10 @@ from frappe import _
 def get_data():
 	return [
 		{
-			"module_name": "Express Tally Integration",
+			"module_name": "Tally Migration",
 			"color": "grey",
 			"icon": "octicon octicon-file-directory",
 			"type": "module",
-			"label": _("Express Tally Integration")
+			"label": _("Tally Migration")
 		}
 	]

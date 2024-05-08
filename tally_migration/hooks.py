@@ -1,12 +1,12 @@
 from . import __version__ as app_version
 
 app_name = "tally_migration"
-app_title = "Express Tally Integration"
-app_publisher = "Laxman Tandon"
+app_title = "Tally Migration"
+app_publisher = "Md.Al-Amin"
 app_description = "This application sync data between tally and erpnext using frappe rest api"
 app_icon = "octicon octicon-file-directory"
 app_color = "grey"
-app_email = "laxmantandon@gmail.com"
+app_email = "amin252646@gmail.com"
 app_license = "MIT"
 
 # Includes in <head>

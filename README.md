@@ -16,7 +16,7 @@ This tool helps migration of data from Tally Prime (Masters and transactions) to
 
 ## Installation
 
-Once you've [set up a Frappe site](https://frappeframework.com/docs/v14/user/en/installation/), installing Express Tally Integration is simple:
+Once you've [set up a Frappe site](https://frappeframework.com/docs/v14/user/en/installation/), installing Tally Migration is simple:
 
 1. Download the app using the Bench CLI.
 
