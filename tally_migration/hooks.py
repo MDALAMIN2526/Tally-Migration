@@ -1,6 +1,6 @@
 from . import __version__ as app_version
 
-app_name = "express_tally"
+app_name = "tally_migration"
 app_title = "Express Tally Integration"
 app_publisher = "Laxman Tandon"
 app_description = "This application sync data between tally and erpnext using frappe rest api"
@@ -13,15 +13,15 @@ app_license = "MIT"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/express_tally/css/express_tally.css"
-# app_include_js = "/assets/express_tally/js/express_tally.js"
+# app_include_css = "/assets/tally_migration/css/tally_migration.css"
+# app_include_js = "/assets/tally_migration/js/tally_migration.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/express_tally/css/express_tally.css"
-# web_include_js = "/assets/express_tally/js/express_tally.js"
+# web_include_css = "/assets/tally_migration/css/tally_migration.css"
+# web_include_js = "/assets/tally_migration/js/tally_migration.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "express_tally/public/scss/website"
+# website_theme_scss = "tally_migration/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -56,14 +56,14 @@ app_license = "MIT"
 # Installation
 # ------------
 
-# before_install = "express_tally.install.before_install"
-# after_install = "express_tally.install.after_install"
+# before_install = "tally_migration.install.before_install"
+# after_install = "tally_migration.install.after_install"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "express_tally.notifications.get_notification_config"
+# notification_config = "tally_migration.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -102,39 +102,39 @@ app_license = "MIT"
 
 # scheduler_events = {
 # 	"all": [
-# 		"express_tally.tasks.all"
+# 		"tally_migration.tasks.all"
 # 	],
 # 	"daily": [
-# 		"express_tally.tasks.daily"
+# 		"tally_migration.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"express_tally.tasks.hourly"
+# 		"tally_migration.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"express_tally.tasks.weekly"
+# 		"tally_migration.tasks.weekly"
 # 	]
 # 	"monthly": [
-# 		"express_tally.tasks.monthly"
+# 		"tally_migration.tasks.monthly"
 # 	]
 # }
 
 # Testing
 # -------
 
-# before_tests = "express_tally.install.before_tests"
+# before_tests = "tally_migration.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "express_tally.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "tally_migration.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "express_tally.task.get_dashboard_data"
+# 	"Task": "tally_migration.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -170,7 +170,7 @@ user_data_fields = [
 # --------------------------------
 
 # auth_hooks = [
-# 	"express_tally.auth.validate"
+# 	"tally_migration.auth.validate"
 # ]
 
 fixtures = ['Custom Field']

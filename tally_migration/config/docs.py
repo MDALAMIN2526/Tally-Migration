@@ -2,8 +2,8 @@
 Configuration for docs
 """
 
-# source_link = "https://github.com/[org_name]/express_tally"
-# docs_base_url = "https://[org_name].github.io/express_tally"
+# source_link = "https://github.com/[org_name]/tally_migration"
+# docs_base_url = "https://[org_name].github.io/tally_migration"
 # headline = "App that does everything"
 # sub_heading = "Yes, you got that right the first time, everything"
 

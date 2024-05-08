@@ -4,15 +4,15 @@ include *.json
 include *.md
 include *.py
 include *.txt
-recursive-include express_tally *.css
-recursive-include express_tally *.csv
-recursive-include express_tally *.html
-recursive-include express_tally *.ico
-recursive-include express_tally *.js
-recursive-include express_tally *.json
-recursive-include express_tally *.md
-recursive-include express_tally *.png
-recursive-include express_tally *.py
-recursive-include express_tally *.svg
-recursive-include express_tally *.txt
-recursive-exclude express_tally *.pyc
+recursive-include tally_migration *.css
+recursive-include tally_migration *.csv
+recursive-include tally_migration *.html
+recursive-include tally_migration *.ico
+recursive-include tally_migration *.js
+recursive-include tally_migration *.json
+recursive-include tally_migration *.md
+recursive-include tally_migration *.png
+recursive-include tally_migration *.py
+recursive-include tally_migration *.svg
+recursive-include tally_migration *.txt
+recursive-exclude tally_migration *.pyc
